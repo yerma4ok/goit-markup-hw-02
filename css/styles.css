@@ -1,0 +1,21 @@
+body {
+
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #2196F3;
+}
+
+.contacts a {
+    color: #757575;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196F3;
+}
