@@ -1,9 +1,55 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
 
+/*--------------------------logo----------------------------*/
+.logo {
+    text-decoration: none
+}
+
+.logo-1, 
+.logo-2, 
+.logo-3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-1 {
+    color: #2196F3;
+}
+
+.logo-2 {
+    color: #000000;
+}
+
+.logo-3 {
+    color: #FFFFFF;
+}
+
+/*--------------------------studio----------------------------*/
+.site-nav {
+    list-style-type: none;
 }
 
 .site-nav a {
+   text-decoration: none
+}
+
+
+.site-nav-activ {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}
+
+.site-nav-list {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
 
 .site-nav a:hover,
@@ -13,6 +59,10 @@ body {
 
 .contacts a {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    text-decoration: none;
 }
 
 .contacts a:hover,
@@ -20,3 +70,106 @@ body {
     color: #2196F3;
 }
 
+.heading {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+.heading-text {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-transform: uppercase;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-list-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+
+.features-list-text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1,71;
+}
+
+.user-portfolio {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+}
+
+.user-portfolio-list {
+    list-style: none;
+}
+
+.user-team {
+    background-color: #F5F4FA;
+}
+
+.user-team-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+}
+
+.user-team-list {
+    list-style: none;
+}
+
+.user-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+}
+
+.user-profession {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1,17;
+}
+
+.footer-contacts {
+    background-color: #2F303A;
+}
+
+.footer-address {
+    font-size: 14px;
+    line-height: 1,71;
+    font-style: normal;
+}
+
+.footer-contacts-list {
+    list-style: none;
+}
+
+.footer-contacts-list-address-activ {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contacts-list-address {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-contacts-list-address:hover,
+.footer-contacts-list-address:focus {
+    color: #ffffff;
+}
+
+
+
+/*--------------------------portfolio----------------------------*/
