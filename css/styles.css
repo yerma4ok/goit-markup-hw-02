@@ -81,18 +81,8 @@ body {
     line-height: 1,36;
     text-transform: uppercase;
 }
-
-.button-heading-activ {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,63;
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-
-.button-heading-activ:hover,
-.button-heading-activ:focus {
+.heading > .button-current-activ:hover,
+.heading > .button-current-activ:focus {
     background: #1782da;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
